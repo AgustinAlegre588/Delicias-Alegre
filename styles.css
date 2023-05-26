@@ -1,5 +1,6 @@
 body {
-    color: blanchedalmond;
+    background-color: white;
+    color: black;
     font-family: sans-serif;
     padding: 20px;
 }
@@ -8,6 +9,11 @@ h1 {
     font-size: 35px;
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+a {
+    text-decoration: 1;
+    color: black;
 }
 
 .established {
