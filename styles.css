@@ -1,21 +1,140 @@
-body {
-    background-color: white;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 80.5%;
+  }
+  
+  body {
+    font-family: 'Baskervville', serif;
     color: black;
-    font-family: sans-serif;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 35px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-a {
-    text-decoration: 1;
+    background-color: bisque;
+  }
+  
+  h1 {
+     font-family: 'Anton', sans-serif;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+    row-gap: 3rem;
+  }
+  
+  .heading {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.5rem;
+  }
+  
+  .text {
+    grid-column: 2 / 3;
+    font-size: 1.8rem;
+    letter-spacing: 0.6px;
+    column-width: 25rem;
+    text-align: justify;
+  }
+  
+  .hero {
+    grid-column: 1 / -1;
+    position: relative;
+  }
+  
+  .hero-title {
+    text-align: center;
+    color: rgb(234, 130, 152);
+    font-size: 8rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 2.4rem;
+    color: rgba(255, 0, 0, 0.511);
+    text-align: center;
+  }
+  
+  .author {
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .author-name a:hover {
+    background-color: bisque;
+  }
+  
+  .publish-date {
+    color: rgba(128, 128, 128, 0.613);
+  }
+  
+  .social-icons {
+    display: grid;
+    font-size: 3rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+  
+  .social-icons1 {
+    color: green;
+  }
+  
+  .social-icons2 {
+    color: blue;
+  }
+  
+  .social-icons3 {
     color: black;
-}
-
-.established {
-    font-size: italic;
-}
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .hero-title {
+      font-size: 6rem;
+    }
+  
+    .hero-subtitle,
+    .author {
+      font-size: 1.8rem;
+    }
+  
+    .social-icons {
+      font-size: auto;
+    }
+  
+    .text {
+      font-size: 1.6rem;
+    } 
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .hero-title{
+      font-size: 4.5rem;
+    }
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    height: right;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  a {
+      text-decoration: 1;
+      color: black;
+  }
+  
+  a:hover {
+    color: transparent;
+  }
+  
+  a:active {
+    color: hwb(354 22% 66% / 0.301);
+  }
