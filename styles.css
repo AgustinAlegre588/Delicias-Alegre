@@ -40,10 +40,11 @@ header {
   background: var(--bg-color);
 }
 
-.logo {
-  color: var(--main-color);
-  font-weight: 600;
-  font-size: 2.4rem;
+#logo {
+  width: max(100px, 18vw);
+  background-color: #0a0a23;
+  aspect-ratio: 35 / 4;
+  padding: 0.4rem;
 }
 
 .navbar {
