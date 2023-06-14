@@ -41,6 +41,11 @@ header {
   background: white;
 }
 
+header img {
+  width: 150px;
+  height: 180px;
+}
+
 #logo {
   width: max(100px, 18vw);
   background-color: white;
