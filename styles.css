@@ -282,6 +282,10 @@ section {
   background: var(--text-color);
 }
 
+hr {
+  
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -293,7 +297,7 @@ footer, footer a {
 
 address {
   text-align: center;
-  padding: 11rem;
+  padding: 0.3rem;
 }
 
 
