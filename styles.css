@@ -50,7 +50,6 @@ header {
 
 .navbar {
   display: flex;
-  position: absolute;
 }
 
 .navbar a {
@@ -284,7 +283,6 @@ section {
 }
 
 footer {
-  background-color: #fff;
   display: flex;
   justify-content: center;
 }
