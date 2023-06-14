@@ -243,7 +243,7 @@ section {
   margin-bottom: 15px;
 }
 
-.col ul li a {
+.col a {
   color: #9897a9;
   font-size: 1.1rem;
   display: block;
@@ -251,7 +251,7 @@ section {
   transition: .4s;
 }
 
-.col ul li a:hover {
+.col a:hover {
   color: var(--text-color);
   transform: translateX(-12px);
 }
@@ -283,7 +283,7 @@ section {
 }
 
 hr {
-  
+  color: black;
 }
 
 footer {
