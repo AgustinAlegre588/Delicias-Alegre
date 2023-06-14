@@ -24,7 +24,7 @@
 
 body {
   color: var(--text-color);
-  background: white;
+  background: var(--bg-color);
 }
 
 header {
@@ -37,7 +37,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 30px 170px;
-  background: var(--bg-color);
+  background: white;
 }
 
 #logo {
