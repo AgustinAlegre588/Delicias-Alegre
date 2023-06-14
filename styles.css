@@ -12,6 +12,7 @@
   --main-color: #ff702a;
   --text-color: #fff;
   --bg-color: #1e1c2a;
+  --bg-color1: #ee8dbdc0;
   --big-font: 5rem;
   --h2-font: 2.25rem;
   --p-font: 0.9rem;
@@ -52,7 +53,7 @@ header {
 }
 
 .navbar a {
-  color: black;
+  color: var(--bg-color1);
   font-size: 1.1rem;
   padding: 10px 20px;
 }
@@ -278,6 +279,13 @@ section {
   transform: scale(1.2);
   color: var(--bg-color);
   background: var(--text-color);
+}
+
+.author {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 1560px) {
