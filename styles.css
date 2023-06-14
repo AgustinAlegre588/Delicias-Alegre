@@ -220,13 +220,16 @@ section {
 
 .col {
   width: 25%;
+  position: relative;
+  text-align: right;
+  justify-content: right;
 }
 
 .col h4 {
   font-size: 1.2rem;
   color: var(--text-color);
   margin-bottom: 25px;
-  position: relative;
+  position: absolute;
 }
 
 .col h4::before {
