@@ -281,12 +281,21 @@ section {
   background: var(--text-color);
 }
 
-.author {
-  position: relative;
+footer {
+  background-color: #fff;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
+
+footer, footer a {
+  color: black;
+}
+
+address {
+  text-align: center;
+  padding: 0.5rem;
+}
+
 
 @media (max-width: 1560px) {
   header {
