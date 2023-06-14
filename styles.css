@@ -50,9 +50,11 @@ header {
 
 .navbar {
   display: flex;
+  position: absolute;
 }
 
 .navbar a {
+  display: flex;
   color: var(--bg-color1);
   font-size: 1.1rem;
   padding: 10px 20px;
@@ -293,7 +295,7 @@ footer, footer a {
 
 address {
   text-align: center;
-  padding: 0.5rem;
+  padding: 11rem;
 }
 
 
