@@ -221,8 +221,6 @@ section {
 .col {
   width: 25%;
   position: relative;
-  text-align: right;
-  justify-content: right;
 }
 
 .col h4 {
