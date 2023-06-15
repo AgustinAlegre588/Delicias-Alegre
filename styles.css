@@ -42,8 +42,9 @@ header {
 }
 
 header img {
-  width: 150px;
-  height: 180px;
+  width: 100px;
+  cursor: pointer;
+  margin: 7px 0;
 }
 
 #logo {
