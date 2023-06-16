@@ -240,7 +240,7 @@ section .footer_main {
   position: absolute;
 }
 
-.col .social h4::before {
+.col1 .social h4::before {
   content: "";
   position: absolute;
   height: 2px;
@@ -267,7 +267,7 @@ section .footer_main {
   transform: translateX(-12px);
 }
 
-.co1l .social {
+.col1 .social {
   width: 220px;
   display: flex;
   align-items: center;
