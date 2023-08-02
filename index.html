@@ -1,51 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>First Repository</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <title>Delicias Alegre-Pagina Web</title>
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@700&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@700&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 </head>
-
 <body>
   <header>
-    <img id="logo" src="/imagenes/logo.png.png">
-    <div class="bx bx-menu" id="menu" id="menu-icon"></div>
+    <a href="" class="logo">
+      <img width="75" height="75" border-radius="50%" src="imagenes/img-1.png" title="Delicias Alegre" alt="Logo De Nuestro Emprendimiento">
+    </a>
+    <div class="bx bx-menu" id="menu" id="menu-icon">
     <ul class="navbar">
+      <button class="open-menu" aria-label="Abrir menú">
+        <img src="" alt="abrir menú" />
+      </button>
       <li><a href="#home">Inicio</a></li>
-      <li><a href="#menu">Menú</a></li>
+      <li><a href="#food">Menú</a></li>
       <li><a href="#services">Servicios</a></li>
-      <li><a href="#about_us">Acerca de <br> Nosotros</a></li>
+      <li><a href="#about-us">Acerca de Nosotros</a></li>
     </ul>
+  </div>
   </header>
-  <!--home star-->
   <section class="home" id="home">
     <div class="home-text">
       <h1>Delicias Alegre</h1>
-      <h2>"𝚂𝙸 𝚂𝙾𝙼𝙾𝚂 𝙻𝙾 𝚀𝚄𝙴 𝙲𝙾𝙼𝙴𝙼𝙾𝚂 , <br> 𝚂𝙾𝙼𝙾𝚂 𝚄𝙽𝙰 𝙳𝙴𝙻𝙸𝙲𝙸𝙰"</h2>
-      <a href="https://delicias-alegres.negocio.site/?utm_source=gmb&utm_medium=referral" class="btn">pagina web</a>
+      <h2>"𝚂𝙸 𝚂𝙾𝙼𝙾𝚂 𝙻𝙾 𝚀𝚄𝙴 𝙲𝙾𝙼𝙴𝙼𝙾𝚂 , 𝚂𝙾𝙼𝙾𝚂 𝚄𝙽𝙰 𝙳𝙴𝙻𝙸𝙲𝙸𝙰"</h2>
+      <a href="" class="btn">Más Información</a>
     </div>
     <div class="home-img">
-      <img src="/imagenes/tienda.png">
+      <img src="">
     </div>
   </section>
-  <!--menu start-->
-  <section class="menu" id="menu">
+  <section class="menu" id="food" alt="Menú">
     <div class="heading">
-      <span></span>
-      <h2></h2>
+      <span>Menú</span>
+      <h2>Diferentes tipos de Comidas</h2>
     </div>
     <div class="menu-container">
       <div class="box">
         <div class="box-img">
-          <img src="/imagenes/pastafrola.png.png">
+          <img src="imagenes/pastafrola.png.png">
+        </div>
+        <h2>Pasta Frola</h2>
+        <h3>rica </h3>
+        <span>$1,000</span>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="imagenes/pastafrola.png.png">
         </div>
         <h2>Pasta Frola</h2>
         <h3>tasty food</h3>
@@ -54,18 +66,9 @@
       </div>
       <div class="box">
         <div class="box-img">
-          <img src="/imagenes/pastafrola.png.png">
+          <img src="imagenes/empanadas.png.png">
         </div>
-        <h2>PAsta Frola</h2>
-        <h3>tasty food</h3>
-        <span>$1,000</span>
-        <i class='bx bx-cart-alt'></i>
-      </div>
-      <div class="box">
-        <div class="box-img">
-          <img src="/imagenes/empanadas.png.png">
-        </div>
-        <h2>Empanadas de Carne o de Pollo</h2>
+        <h2>Empanadas <br />de Carne</h2>
         <h3>tasty food</h3>
         <span>$1,000</span>
         <i class='bx bx-cart-alt'></i>
@@ -84,34 +87,42 @@
           <img src="nceiajnc">
         </div>
         <h2>chiquenjcenjc</h2>
+        <h3>tasty food</h3>
+        <span>$1,000</span>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="imagenes/pastafrola.png.png">
+        </div>
+        <h2>Pasta Frola</h2>
         <h3>tasty food</h3>
         <span>$1,000</span>
         <i class='bx bx-cart-alt'></i>
       </div>
     </div>
   </section>
-  <!--services-->
   <section class="services" id="services">
     <div class="heading">
       <span>Services</span>
-      <h2>We provide best quality food</h2>
+      <h2>Entregamos los pedidos sin ningún daño y costo alguno</h2>
       <div class="service-container">
         <div class="s-box">
-          <img src="/imagenes/envio.png.png">
+          <img src="imagenes/envio.png.png">
           <h3>Orden</h3>
           <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, <br> pero la mayoría ha sufrido una
             alteración
             humorística.</p>
         </div>
         <div class="s-box">
-          <img src="/imagenes/entrega.png.png">
+          <img src="imagenes/entrega.png.png">
           <h3>Envio</h3>
           <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, <br> pero la mayoría ha sufrido una
             alteración
             humorística.</p>
         </div>
         <div class="s-box">
-          <img src="/imagenes/caja.png.png">
+          <img src="imagenes/caja.png.png">
           <h3>Entrega</h3>
           <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, <br> pero la mayoría ha sufrido una
             alteración
@@ -119,15 +130,13 @@
         </div>
       </div>
   </section>
-  <!--about-->
   <hr>
   <main>
     <address>
-      <span>By</span>
+      <span>Created By</span>
       <a href="https://www.freecodecamp.org/AgustinAlegre" target="_blank">AgustinAlegre</a>
     </address>
   </main>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
-
 </html>
