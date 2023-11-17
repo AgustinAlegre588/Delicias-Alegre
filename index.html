@@ -1,155 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content=" IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Documentación de Java♨️☕</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delicias Alegre-Pagina Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav id="navbar">
-        <header class="navbar">Documentación de Java</header>
-        <ul>
-            <li>
-                <a class="nav-link" href="#Empezando_con_Java">¿Cómo Descargar Java?</a>
-            </li>
-            <hr>
-            <li>
-                <a class="nav-link" href="#Punto_de_entrada_de_Java">Punto de Entrada de Java</a>
-            </li>
-            <hr>
-            <li>
-                <a class="nav-link" href="#Imprimir_en_la_Consola">Imprimir en la Consola</a>
-            </li>
-            <hr>
-            <li>
-                <a class="nav-link" href="#Declaración_de_Funciones">Declaración de Funciones</a>
-            </li>
-            <hr>
-            <li>
-                <a class="nav-link" href="#Programación_Orientada_a_Objetos">Programación Orientada a Objetos</a>
-            </li>
-            <hr>
-        </ul>
-    </nav>
-    <main id="main-doc">
-        <section class="main-section" id="Empezando_con_Java">
-            <header>¿Cómo Descargar Java?</header>
-            <p>Pasos para Empezar a Descargar Java:</p>
-            <ol class="pasos">
-                <li>Descargar Java♨️☕ <a
-                        href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=249185_b291ca3e0c8548b5a51d5a5f50063037">aquí</a>
-                </li>
-                <li>Descargar el SDK de Java</li>
-                <li>Obtener un Entorno de Desarrollo Integrado (IDE)</li>
-                <li>Iniciar un Proyecto Dentro del IDE</li>
-                <li>Codifique "Hello World" y ejecute el código</li>
-            </ol>
-        </section>
-        <section class="main-section" id="Punto_de_entrada_de_Java">
-            <header>Punto de Entrada de Java</header>
-            <p>El punto de entrada a una aplicación java es la función principal.</p>
-            <p>Está categorizado por su (cadena [ ] arg) como parámetro de la función.</p>
-            <pre>
-                <code data-aos="fade-right">
-        public class MyMainFunction {
-        <span>/* Ejemplo de una función principal de Java */</span>
-            public static void main(string{} args) {
-            }
-        }
-                </code>
-            </pre>
-            <p>Como puede ver, la función principal está envuelta dentro de una clase que forma parte de la estructura
-                orientada a objetos de Java Projects.</p>
-            <p>Por lo tanto, el nombre del proyecto es "My Main Function".</p>
-        </section>
-        <section class="main-section" id="Imprimir_en_la_Consola">
-            <header>Imprimir en la Consola</header>
-            <p>Para poder imprimir en la consola. Usamos "System.out.println".</p>
-            <p>Es muy largo y engorroso, pero así es como se hace.😞</p>
-            <pre>
-                <code  data-aos="fade-left">
-        public class MyMainFunction {
-        <span>/* Ejemplo de una función principal de Java */</span>
-            public static void main(string{} args) {
-                System.out.println("Hello World");
-            }
-        }
-                </code>
-            </pre>
-            <p>En este ejemplo, escribi "Hello World" en la consola cuando ejecutamos el programa.</p>
-        </section>
-        <section class="main-section" id="Declaración_de_Funciones">
-            <header>Declaración de Funciones</header>
-            <p>En realidad, las funciones se denominan métodos en Java. A continuación se muestra un ejemplo de cómo
-                declarar un método en Java.</p>
-            <img id="imagen"
-                src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/02/example-of-java-method-declaration.jpg"
-                alt="imágen de un método en Java" titule="imágen de un método en Java" class="image" data-aos="flip-left" />
-            <div id="myModal" class="modal">
-                <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
-                <div id="caption"></div>
-            </div>
-            <p>Código para copiar:</p>
-            <pre>
-                <code data-aos="fade-right">
-        Public static void myFuction(String name, int age)
-        {
-            /* function age */
-        }
-                </code>
-            </pre>
-        </section>
-        <section class="main-section" id="Programación_Orientada_a_Objetos">
-            <header>Programación Orientada a Objetos</header>
-            <p>Esto significa que es fácil representar entidades como objetos mediante el uso de clases y encapsulación.
-            </p>
-            <p>Un ejemplo de esto podría ser "Student class" para representar a un estudiante.</p>
-            <pre>
-                <code data-aos="fade-left">
-        public class Student {
-        <span>/* Propiedades de estudiantes */</span>
-        private String name;
-        private int age;
-        }
-
-        <span>/* Constructor */</span>
-        public Student(String name, int age){
-            this.name = name;
-            this.age = age;
-        }
-
-        <span>/* Método de Adquirir */</span>
-        public String getName() {
-            return name;
-        }
-
-        <span>/* Método de Establecimiento */</span>
-        public void setName(String name) {
-            this.name = name;
-        }
-                </code>
-            </pre>
-            <p>Usamos esta clase haciendo lo siguiente:</p>
-            <pre>
-                <code data-aos="fade-right">
-        Student student1 = new Student("Agustin", 16);
-        String agustinname = student1.getname();
-        student.setname("Kevin");
-                </code>
-            </pre>
-        </section>
-        <footer>
-            <p>La Documentación fue presentada por <a href="https://www.instagram.com/agustin.alegre_558/"
-                    target="_blank">Agustin Alegre</a> y <a class="no">Fabricio Poma</a>.</p>
-        </footer>
-        <script type="text/javascript" src="./script.js"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+  <header>
+    <a href="" class="logo">
+      <img width="75" height="75" border-radius="50%" src="imagenes/img-1.png" title="Delicias Alegre" alt="Logo De Nuestro Emprendimiento">
+    </a>
+    <div class="bx bx-menu" id="menu" id="menu-icon">
+    <ul class="navbar">
+      <button class="open-menu" aria-label="Abrir menú">
+        <img src="" alt="abrir menú" />
+      </button>
+      <li><a href="#home">Inicio</a></li>
+      <li><a href="#food">Menú</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#about-us">Acerca de Nosotros</a></li>
+    </ul>
+  </div>
+  </header>
+  <section class="home" id="home">
+    <div class="home-text">
+      <h1>Delicias Alegre</h1>
+      <h2>"𝚂𝙸 𝚂𝙾𝙼𝙾𝚂 𝙻𝙾 𝚀𝚄𝙴 𝙲𝙾𝙼𝙴𝙼𝙾𝚂 , 𝚂𝙾𝙼𝙾𝚂 𝚄𝙽𝙰 𝙳𝙴𝙻𝙸𝙲𝙸𝙰"</h2>
+      <a href="" class="btn">Más Información</a>
+    </div>
+    <div class="home-img">
+      <img src="">
+    </div>
+  </section>
+  <section class="menu" id="food" alt="Menú">
+    <div class="heading">
+      <span>Menú</span>
+      <h2>Diferentes tipos de Comidas</h2>
+    </div>
+    <div class="menu-container">
+      <div class="box">
+        <div class="box-img">
+          <img src="imagenes/pastafrola.png.png">
+        </div>
+        <h2>Pasta Frola</h2>
+        <h3>rica </h3>
+        <span>$1,000</span>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="imagenes/pastafrola.png.png">
+        </div>
+        <h2>Pasta Frola</h2>
+        <h3>tasty food</h3>
+        <span>$1,000</span>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="imagenes/empanadas.png.png">
+        </div>
+        <h2>Empanadas <br />de Carne</h2>
+        <h3>tasty food</h3>
+        <span>$1,000</span>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="nceiajnc">
+        </div>
+        <h2>chiquenjcenjc</h2>
+        <h3>tasty food</h3>
+        <span>$1,000</span>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="nceiajnc">
+        </div>
+        <h2>chiquenjcenjc</h2>
+        <h3>tasty food</h3>
+        <span>$1,000</span>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="imagenes/pastafrola.png.png">
+        </div>
+        <h2>Pasta Frola</h2>
+        <h3>tasty food</h3>
+        <span>$1,000</span>
+        <i class='bx bx-cart-alt'></i>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+    <div class="heading">
+      <span>Services</span>
+      <h2>Entregamos los pedidos sin ningún daño y costo alguno</h2>
+      <div class="service-container">
+        <div class="s-box">
+          <img src="imagenes/envio.png.png">
+          <h3>Orden</h3>
+          <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, <br> pero la mayoría ha sufrido una
+            alteración
+            humorística.</p>
+        </div>
+        <div class="s-box">
+          <img src="imagenes/entrega.png.png">
+          <h3>Envio</h3>
+          <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, <br> pero la mayoría ha sufrido una
+            alteración
+            humorística.</p>
+        </div>
+        <div class="s-box">
+          <img src="imagenes/caja.png.png">
+          <h3>Entrega</h3>
+          <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, <br> pero la mayoría ha sufrido una
+            alteración
+            humorística.</p>
+        </div>
+      </div>
+  </section>
+  <hr>
+  <main>
+    <address>
+      <span>Created By</span>
+      <a href="https://www.freecodecamp.org/AgustinAlegre" target="_blank">AgustinAlegre</a>
+    </address>
+  </main>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

@@ -1,16 +1,10 @@
-var modal = document.getElementById('myModal');
+let menu = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
 
-var img = document.getElementById('imagen');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
+menu.addEventListener("click", function () {
+    navbar.classList.toggle("active");
+});
 
-var span = document.getElementsByClassName("close")[0];
-
-span.onclick = function() { 
-  modal.style.display = "none";
-}
+window.onscroll = () => {
+    navbar.classList.remove("active");
+};
